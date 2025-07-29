@@ -11,6 +11,16 @@ export const projects = [
     year: 2024
   },
   {
+    slug: 'lux-events',
+    title: 'Event Portal Mockup',
+    short: 'Simple events page for events company.',
+    description:
+      'Mockup website for events with ticket buying, contact form, and event display',
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    type: 'static',               // served from /public/projects/<slug>/index.html
+    year: 2025
+  },
+  {
     slug: 'basic-calculator',
     title: 'Basic Calculator',
     short: 'Lightweight calculator with keyboard support.',

@@ -1,0 +1,70 @@
+<!-- lux-events/contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Lux Events</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">Lux Events</div>
+
+    <!-- Hamburger Button -->
+    <button class="hamburger" id="hamburgerBtn">
+      ☰
+    </button>
+
+    <!-- Nav Links -->
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="events.html">Events</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+
+  <main>
+    <section class="page-header">
+      <h1>Contact Us</h1>
+      <p>Booking inquiries, collaborations, or questions? Let’s talk.</p>
+    </section>
+
+    <section class="contact-section">
+      <div class="contact-form-container">
+        <form class="contact-form">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" required>
+
+          <label for="email">Your Email</label>
+          <input type="email" id="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" required></textarea>
+
+          <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+          <h3>WhatsApp Us</h3>
+          <p>Need a quick response? Tap the button below.</p>
+          <a href="https://wa.me/27711234567" target="_blank" class="btn-secondary">Chat on WhatsApp</a>
+
+          <h3 style="margin-top: 2rem;">Find Us</h3>
+          <iframe 
+            src="https://maps.google.com/maps?q=Cape%20Town&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+            width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
+

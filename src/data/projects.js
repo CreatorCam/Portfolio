@@ -11,6 +11,16 @@ export const projects = [
     year: 2024
   },
   {
+    slug: 'workforce-platform',
+    title: 'Workforce Management Platform',
+    short: 'A web based system for managing shifts.',
+    description:
+      '',
+    tech: ['MongoDB', 'Express', 'React', 'Next.js', 'Tailwind', 'Node.js'],
+    type: 'video',               // served from /public/projects/<slug>/index.html
+    year: 2025
+  },
+  {
     slug: 'lux-events',
     title: 'Event Portal Mockup',
     short: 'Simple events page for events company.',
